@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{383db743-4847-4a95-83ef-a517f2451f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library">
+      <UniqueIdentifier>{dfc28f9d-fd16-4be5-bf4e-0a54e03f7e78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Screen.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Source Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="InputProcessor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Source Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Source Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScore.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Color1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Color2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Color3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Color4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Color5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity6.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity7.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity8.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity9.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity10.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity11.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity12.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity13.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity14.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity15.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity17.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity18.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity19.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Gravity\Gravity20.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

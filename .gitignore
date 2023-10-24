@@ -1,0 +1,10 @@
+.vs
+MiniclipProject/x64
+MiniclipProject/x86
+MiniclipProject/high.score
+x86
+/x64
+/x64
+SDL*/docs
+SDL*/cmake
+SDL*/**/optional
